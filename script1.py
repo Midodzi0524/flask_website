@@ -8,7 +8,7 @@ def home():
 
 @app.route('/about/')
 def about():
-    return 'about content goes here'
+    return render_template('about.hmtl')
 
 if __name__ == '__main__':
-    app.run(debug=True) 
+    app.run(debug=True)  
